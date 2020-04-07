@@ -150,7 +150,13 @@ main{
 
 
 
-
+table,tr,th,td{
+    border: solid 1px #393939;
+    border-collapse: collapse;
+}
+tr:nth-child(3n){
+    background-color: #4b6700;
+}
 
 
 
